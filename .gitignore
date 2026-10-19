@@ -1,0 +1,26 @@
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Keep example environment files
+!.env.example
+
+# Python virtual environment
+venv/
+.venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Streamlit configuration (optional)
+.streamlit/secrets.toml
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
